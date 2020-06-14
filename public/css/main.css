@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+    margin-left: 15%;
+}
+
+header {
+    padding: 35px;
+    margin-bottom: 35px;
+    margin-right: 10%;
+    text-align: center;
+    border-bottom: ridge;
+
+}
+header h1 {
+    font-size: 50px;
+    font-family: arial;
+}
+
+header a {
+    color: gray;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    transition: 1s;
+    
+}
+
+header a:hover {
+    background-color: lightgray;
+}
+
+p {
+    font-size: 20px;
+}
