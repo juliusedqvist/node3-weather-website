@@ -14,7 +14,7 @@ const forecast = (latitude, longitude, callback) => {
                 undefined
             })
         } else {
-            callback(undefined, (body.current.weather_descriptions[0] + ".", 'It is currently ' + body.current.temperature + ' degrees outside with a ' + body.current.precip + '% chance of rain.'))
+            callback(undefined, (body.current.weather_descriptions[0] + ".", 'It is currently ' + body.current.temperature + ' degrees outside with a ' + body.current.precip + '% chance of rain. \nObserved ' + body.current.observation_time))
         }
     })
 }
